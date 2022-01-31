@@ -1,0 +1,31 @@
+Name:Nima Sherpa
+Course Name:CSCI 3916
+Course Number:Assignment 0
+
+GET https://www.googleapis.com/books/v1/volumes?q=Turing
+Network
+Request Headers
+User-Agent: PostmanRuntime/7.29.0 ( Desc: The software used by the initial user to get the JSON response. As for me, I used the Postman to do the task.)
+Accept: */* ( Desc: The Accept prefixed headers indicate the acceptable media-types, language, and character sets for the user. The response '*/*' indicates acceptable for any media type.)
+Cache-Control: no-cache ( Desc: Cache-Control header holds directives (instructions). The no-cache request directive asks caches to validate the response with the origin server before reuse.)
+Postman-Token: adb90d6a-17c7-4be9-9686-590251edcc38 (Desc: Postman-Token is basically an access key assigned for requesting an authentication.)
+Host: www.googleapis.com (Desc: The domain name of the server.)
+Accept-Encoding: gzip, deflate, br (Desc: Accept-Encoding indiciates the content encoding which uses different compression format for user understandle.)
+Connection: keep-alive (Desc: Connection indicates the status of the network connection inorder to inform where the application stays open after certain task is completed. Here, keep-alive indicates the connection is persistent and not closed.)
+
+Request Body
+Response Headers
+Content-Type: application/json; charset=UTF-8 ( Desc: This header indicates the original media types of the resource.)
+Vary: Origin (Desc: Vary header is used to described the parts of the requested message. The request origin indicates that the response is dependent on the origin.)
+Vary: X-Origin
+Vary: Referer
+Content-Encoding: gzip (Desc: The content-encoding header mentions any encodings that have been applied to the content inorder to be able to decode the content by the user. gzip is the original format of the UNIX gzip program.)
+Date: Mon, 31 Jan 2022 01:55:36 GMT (Desc: Date header shows the date and time the content was originated.)
+Server: ESF (Desc: Server header indicates the software used by the origin server which handled the request.)
+Cache-Control: private ( Desc: Cache-Control header holds directives (instructions). Private cache exists in the client only and can be store and reuse personalized content for a single user.)
+X-XSS-Protection: 0 (Desc: This header is a feature in web browsers that stops the page from loading the content when an attack to inject into a website malicious client-side code is detected. 'O' indicates disable of XSS filtering.)
+X-Frame-Options: SAMEORIGIN (Desc: This header can be used to prevent the click-jacking attacks by indicating whether a browser should or not rnder a page into different mode based on the links.)
+X-Content-Type-Options: nosniff (Desc: This header is a marker used by the server that allows only the media types which are advertised in the content type headers to be followed. nosniff blocks a request if the media type used is different from the original one that was mentioned.)
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43" (Desc: This header allows a server to use alternative network location for the future requests.)
+Transfer-Encoding: chunked (Desc: This header is useful to safely transfer the information user with the help of specified form of encoding.)
+
