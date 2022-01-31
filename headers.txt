@@ -29,3 +29,4 @@ X-Content-Type-Options: nosniff (Desc: This header is a marker used by the serve
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43" (Desc: This header allows a server to use alternative network location for the future requests.)
 Transfer-Encoding: chunked (Desc: This header is useful to safely transfer the information user with the help of specified form of encoding.)
 
+Some of the description for the HTTP headers are retrieved from https://developer.mozilla.org/en-US/docs/Web/HTTP. 
