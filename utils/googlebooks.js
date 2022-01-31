@@ -8,10 +8,19 @@ module.exports = async (phrase) => {
         }
     })
 
-    return JSON.stringify(results.data);
+    //return JSON.stringify(results.data);
+    let Object={
+        data:results.data,
+        status:results.status,
+        statusText:results.statusText,
+        headers:results.headers,
+        requestHeaders:results.config.headers
+    }
+    return JSON.stringify(Object);
 }
 
-/*  console.log(results.data);
+/*
+    console.log(results.data);
     console.log(results.status);
     console.log(results.statusText);
     console.log(results.headers);
@@ -23,4 +32,5 @@ module.exports = async (phrase) => {
             format: 'json',
             q: `${phrase}`,
         },
-    })*/
+    })
+*/
